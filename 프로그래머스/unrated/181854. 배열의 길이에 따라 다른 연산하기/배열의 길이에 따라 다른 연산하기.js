@@ -21,3 +21,11 @@ function solution(arr, n) {
     
     return answer;
 }
+
+
+// function solution(arr, n) {
+//   if (arr.length % 2 === 1) {
+//     return arr.map((x, i) => ((i + 1) % 2 === 1 ? (x += n) : x));
+//   }
+//   return arr.map((x, i) => ((i + 1) % 2 === 0 ? (x += n) : x));
+// }
