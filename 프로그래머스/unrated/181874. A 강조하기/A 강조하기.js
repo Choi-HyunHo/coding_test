@@ -8,3 +8,5 @@ function solution(myString) {
     })
     return answer.join('');
 }
+
+// const solution=s=>s.toLowerCase().replaceAll('a','A');
