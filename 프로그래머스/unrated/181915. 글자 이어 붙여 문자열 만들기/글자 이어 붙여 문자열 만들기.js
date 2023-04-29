@@ -11,3 +11,5 @@ function solution(my_string, index_list) {
     
     return value.join('');
 }
+
+// index_list.map(i => my_string[i]).join('')
