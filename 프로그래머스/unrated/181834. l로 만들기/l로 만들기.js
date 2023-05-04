@@ -11,3 +11,5 @@ function solution(myString) {
     
     return answer;
 }
+
+// return [...myString].map((v) => v < 'l' ? 'l' : v).join('');
