@@ -9,3 +9,5 @@ function solution(names) {
   
     return result;
 }
+
+// names.filter((v, idx) => idx % 5 === 0);
